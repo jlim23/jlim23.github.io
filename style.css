@@ -1,0 +1,320 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6d6d6d
+}
+
+body {
+    /* background-color: rgb(169, 239, 255); */
+    background-color: #faf7ef
+}
+
+.nav {
+    padding: 16px
+}
+
+.intro-container, .codescape, .brie {
+    margin-top: -1%;
+    margin-left: 18%;
+    margin-right: 17%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center
+}
+
+.me {
+    color: #6d6d6d;
+    margin-top: -1px;
+    margin-left: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px
+}
+
+#name-container {
+    background-image: url('/images/background.jpg');
+    height: 85vh;
+    background-position: top;
+    background-attachment: fixed;
+    margin: -8px
+}
+
+#intro {
+    padding: 6px;
+    margin: -8px
+}
+
+.logos {
+    margin-top: -72pt;
+    display: flex;
+    justify-content: center
+}
+
+.clickable {
+    width: 4em;
+    height: 4em;
+    margin-left: 3vw;
+    filter: invert(30%);
+    transition: opacity 0.3s
+}
+
+.clickable:hover {
+    opacity: 0.5
+}
+
+footer {
+    margin: 18vh 0 6vh 0
+}
+
+h1 {
+    font-family: 'Tiempos Fine';
+    font-size: 90px;
+    color: rgb(71, 71, 71);
+    font-weight: none;
+    margin-left: 35px;
+    margin-top: 22vh;
+    letter-spacing: -3pt;
+    text-align: center;
+    opacity: 0.8
+}
+
+h1:hover {
+    opacity: 0.6
+}
+
+/* h1:after {
+    content: "";
+    display: block;
+    margin: -36px auto;
+    width: 100;
+    padding-top: -30px;
+    border-bottom: 4px solid #757575;
+} */
+
+.link {
+    color: rgb(187, 187, 187);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-grid;
+    transition: box-shadow 0.4s ease-out
+}
+
+.link:hover {
+    border-bottom: solid 2px #FFFFFF;
+    opacity: 0.6;
+    text-transform: lowercase;
+    letter-spacing: -3px;
+    box-shadow: inset 0 -2px 0 #FFFFFF
+}
+
+p {
+    display: flex;
+    color: #888888;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    line-height: 22px
+    /* margin-top: 6.3em;
+    padding: 1.5em */
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    color: #616161;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3vh;
+    line-height: 25px;
+    font-size: 14px;
+    margin-right: -3.6vw;
+    letter-spacing: 0.1em
+}
+
+h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Tiempos Fine';
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin: 23px
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #616161;
+    text-align: center;
+    margin: 0.7em;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1.8px
+}
+
+.title {
+    margin: -24px
+}
+
+.self {
+    /* max-width: 100%; */
+    height: 47vh;
+    width: auto;
+    margin-bottom: 1em
+}
+
+.mockup {
+    height: 42vh;
+    width: auto
+}
+
+.mockup:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#header {
+    color: #c7e0dd;
+    padding: 0.2em
+}
+
+#projects {
+    background-color: #c7e0dd;
+    padding: 1px;
+    align-items: center;
+    margin: -8px
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px
+}
+
+.codebase {
+    width: 2.3em;
+    height: 2.3em;
+    filter: invert(97%);
+    transition: opacity 0.3s;
+    margin-right: 22px
+}
+
+.codebase:hover {
+    opacity: 0.7
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 5px
+}
+
+.brie {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly
+}
+
+@media screen and (max-width: 1024px) {
+    .codescape, .brie {
+        display: flex;
+        flex-direction: column
+    }
+    .me {
+        font-size: 15px
+    }
+    .intro-container {
+        width: 87vw;
+        margin-left: 7vw
+    }
+    .mockup {
+        width: 61vw;
+        height: 38vh
+    }
+    .self {
+        /* width: 105vw; */
+        height: 56vh
+    }
+    .logos {
+        margin-top: -12vh
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .link, .codescape, .brie, .intro-container {
+        display: flex;
+        flex-direction: column;
+        line-height: 0vh
+    }
+    .logos {
+        margin-top: -12vh;
+        opacity: 0.8;
+        display: flex;
+        justify-content: center
+    }
+    .clickable {
+        width: 3em;
+        height: 3em
+    }
+    .header {
+        margin-top: 23vh;
+        margin-left: -10vw;
+        text-align: left
+    }
+    .description-container, .me {
+        font-size: 14px;
+        margin-left: 0vw
+    }
+    .mockup {
+        width: 74vw;
+        height: 28vh
+    }
+    .mockup-container {
+        display: flex;
+        justify-content: space-around
+    }
+    h1 {
+        margin-top: -12vh;
+        font-size: 83px
+    }
+    #name-container {
+        padding-right: 0;
+        margin-right: -3vw;
+        padding-bottom: 6vh
+    }
+    #intro, #projects {
+        padding-right: 0;
+        margin-right: -3vw;
+        padding-bottom: 6vh
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align: right
+    }
+    .link {
+        font-size: 25px
+    }
+    .self {
+        /* width: 57vw; */
+        height: 49vh
+    }
+    #headshot {
+        display: flex;
+        justify-content: space-around
+    }
+}
