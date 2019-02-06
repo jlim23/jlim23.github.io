@@ -51,7 +51,7 @@ body {
 .clickable {
     width: 4em;
     height: 4em;
-    margin-left: 3vw;
+    margin: 0 1vw 0 1vw;
     filter: invert(30%);
     transition: opacity 0.3s
 }
@@ -61,7 +61,7 @@ body {
 }
 
 footer {
-    margin: 18vh 0 6vh 0
+    margin: 18vh 0 0 0
 }
 
 h1 {
@@ -122,11 +122,11 @@ span {
     justify-content: center;
     color: #616161;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 3vh;
+    margin: 4vh 0 5vh 0;
     line-height: 25px;
     font-size: 14px;
-    margin-right: -3.6vw;
-    letter-spacing: 0.1em
+    /* margin-right: -3.6vw; */
+    letter-spacing: 0.05vw
 }
 
 h2 {
