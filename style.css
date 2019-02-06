@@ -307,7 +307,13 @@ h3 {
         text-align: right
     }
     .link {
-        font-size: 25px
+        font-size: 25px;
+        transition: none
+    }
+    .link:hover {
+        color: #FFFFFF;
+        border-bottom: none;
+        box-shadow: none
     }
     .self {
         /* width: 57vw; */
