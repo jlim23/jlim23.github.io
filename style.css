@@ -205,8 +205,8 @@ h3 {
 }
 
 .codebase {
-    width: 2.7em;
-    height: 2.7em;
+    width: 2.5em;
+    height: 2.5em;
     filter: invert(97%);
     transition: opacity 0.3s;
     margin-right: 22px
