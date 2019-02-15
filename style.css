@@ -265,13 +265,16 @@ h3 {
     }
     .logos {
         margin-top: -12vh;
-        opacity: 0.8;
-        display: flex;
-        justify-content: center
+        opacity: 0.8
+        
     }
-    ..fa-github, .fa-linkedin-in, .fa-envelope {
-        width: 3em;
-        height: 3em
+    .fa-github-alt, .fa-window-maximize {
+        margin: 0 3vw 0 3vw
+    }
+    .fa-github, .fa-linkedin-in, .fa-envelope {
+        width: 0.5em;
+        height: 0.5em;
+        margin: 0 12vw 0 3vw
     }
     .header {
         margin-top: 23vh;
@@ -314,7 +317,7 @@ h3 {
         transition: none
     }
     .link:hover {
-        color: #FFFFFF;
+        color: #faf7ef;
         border-bottom: none;
         box-shadow: none
     }
