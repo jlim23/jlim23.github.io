@@ -135,9 +135,10 @@ h2 {
     color: #faf7ef;
     font-family: 'Tiempos Fine';
     text-align: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
     /* opacity: 0.8; */
-    margin: 23px
+    margin: 23px;
+    letter-spacing: -1px
 }
 
 h3 {
