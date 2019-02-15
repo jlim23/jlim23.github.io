@@ -48,16 +48,18 @@ body {
     justify-content: center
 }
 
-.clickable {
-    width: 4em;
-    height: 4em;
-    margin: 0 1vw 0 1vw;
-    filter: invert(30%);
-    transition: opacity 0.3s
+.fa-github, .fa-linkedin-in, .fa-envelope {
+    /* width: 4em;
+    height: 4em; */
+    color: #777777;
+    margin: 0 1.5vw 0 1.5vw;
+    /* filter: invert(30%); */
+    transition: color 0.3s
 }
 
-.clickable:hover {
-    opacity: 0.5
+.fa-github:hover, .fa-linkedin-in:hover, .fa-envelope:hover {
+    /* opacity: 0.5 */
+    color: #c7e0dd
 }
 
 footer {
@@ -120,22 +122,21 @@ p {
 span {
     display: flex;
     justify-content: center;
-    color: #616161;
+    color: #4d4d4d;
     font-family: 'Montserrat', sans-serif;
     margin: 3vh 0 5vh 0;
     line-height: 25px;
     font-size: 14px;
-    /* margin-right: -3.6vw; */
     letter-spacing: 0.05vw
 }
 
 h2 {
     font-size: 40px;
-    color: #FFFFFF;
+    color: #faf7ef;
     font-family: 'Tiempos Fine';
     text-align: center;
     text-transform: uppercase;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     margin: 23px
 }
 
@@ -204,15 +205,17 @@ h3 {
     margin-top: 37px
 }
 
-.codebase {
-    width: 2.5em;
+.fa-github-alt, .fa-window-maximize {
+    /* width: 2.5em;
     height: 2.5em;
     filter: invert(97%);
-    transition: opacity 0.3s;
-    margin-right: 22px
+    color: #FFFFFF; */
+    transition: color 0.3s;
+    margin: 0 1vw 0 1vw
 }
 
-.codebase:hover {
+.fa-github-alt:hover, .fa-window-maximize:hover {
+    color: #b3b3b3;
     opacity: 0.7
 }
 
