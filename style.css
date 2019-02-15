@@ -122,7 +122,7 @@ p {
 span {
     display: flex;
     justify-content: center;
-    color: #4d4d4d;
+    color: #929292;
     font-family: 'Montserrat', sans-serif;
     margin: 3vh 0 5vh 0;
     line-height: 25px;
@@ -269,7 +269,7 @@ h3 {
         display: flex;
         justify-content: center
     }
-    .clickable {
+    ..fa-github, .fa-linkedin-in, .fa-envelope {
         width: 3em;
         height: 3em
     }
