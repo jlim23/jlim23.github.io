@@ -43,7 +43,7 @@ body {
 }
 
 .logos {
-    margin-top: -72pt;
+    margin-top: -1.3vh;
     display: flex;
     justify-content: center
 }
@@ -63,7 +63,7 @@ body {
 }
 
 footer {
-    margin: 18vh 0 0 0
+    margin: 1vh 0 0 0
 }
 
 h1 {
@@ -132,13 +132,18 @@ span {
 
 h2 {
     font-size: 48px;
-    color: #faf7ef;
+    color: #c7e0dd;
+    background: #faf7ef;
     font-family: 'Tiempos Fine';
     text-align: center;
     text-transform: lowercase;
     /* opacity: 0.8; */
+    padding: 0.3em;
     margin: 23px;
-    letter-spacing: -1px
+    letter-spacing: -1px;
+    box-shadow: 8px 8px #b3b3b3;
+    border: 1px solid #757575;
+    margin-bottom: 1.2em
 }
 
 h3 {
@@ -190,7 +195,15 @@ h3 {
 
 #header {
     color: #c7e0dd;
-    padding: 0.2em
+    padding: 0.3em;
+    box-shadow: 8px 8px #c7e0dd;
+    border: 1px solid #757575;
+    margin-bottom: 1.2em
+}
+
+.header-container {
+    display: flex;
+    justify-content: center
 }
 
 #projects {
@@ -212,7 +225,8 @@ h3 {
     filter: invert(97%);
     color: #FFFFFF; */
     transition: color 0.3s;
-    margin: 0 1vw 0 1vw
+    margin: 0 0.7vw 0 0.7vw;
+    justify-content: right
 }
 
 .fa-github-alt:hover, .fa-window-maximize:hover {
