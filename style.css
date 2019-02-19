@@ -9,7 +9,9 @@ body {
 }
 
 .nav {
-    padding: 16px
+    padding: 16px 0 0 0;
+    margin: 0 20px 0px 0;
+    text-align: right
 }
 
 .intro-container, .codescape, .brie {
@@ -91,9 +93,7 @@ h1:hover {
 }
 
 .link:hover {
-    /* border-bottom: solid 2px #FFFFFF; */
-    /* color: #F1C49F; */
-    /* opacity: 0.8; */
+    color: rgb(107, 107, 107);
     text-transform: lowercase;
     letter-spacing: -3px;
     /* box-shadow: inset 0 -2px 0 #FFFFFF */
